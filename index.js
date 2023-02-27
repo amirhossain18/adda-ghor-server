@@ -60,11 +60,7 @@ app.get('/', (req, res)=>{
     res.send('hellow new server ok')
 });
 
-const imagekit = new ImageKit({
-    publicKey : "public_zHxsDs7b4I4qicyDdF+kR9+HjQE=",
-    privateKey : "private_z0VUOi1vFRPxwU2WN93//3fI12s=",
-    urlEndpoint : "https://ik.imagekit.io/x7qdv1aj3/"
-});
+
 
 
 
